@@ -2,14 +2,14 @@
 
 A powerful, asynchronous desktop application built with Python and PyQt6 that leverages `yt-dlp` to download high-definition videos (up to 16K) from various streaming platforms. It features concurrent downloading, custom row UI elements, and built-in anonymity support via Tor proxy routing.
 
-## 🚀 Features
+##  Features
 
 - **High-Resolution Support:** Downloads upto 16K media by automatically stitching video and audio streams.
 - **Multi-Threaded Performance:** Runs downloads on background `QThread` workers to keep the user interface smooth and responsive.
 - **Anonymity Toggle:** Route your traffic through a local Tor proxy with a single click to bypass IP throttling or geo-blocks.
 - **Clean UI:** Clean desktop interface built with PyQt6, featuring download progress bars and silent background processes (no flashing command prompts on Windows).
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Before running the application, ensure you have the following system dependencies installed:
 
@@ -20,7 +20,7 @@ Before running the application, ensure you have the following system dependencie
    - *Linux:* Install via APT: `sudo apt install ffmpeg`
 3. **Tor Service (Optional):** Required only if you plan to use the Tor Proxy feature. Ensure the Tor background service is running on its default port (`9050`).
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 1. **Clone the repository:**
    ```bash
@@ -36,7 +36,7 @@ Before running the application, ensure you have the following system dependencie
    pip install -U "yt-dlp[default]" curl_cffi
    ```
 3. **Install ffmpeg**
-## 💻 Usage
+##  Usage
 
 1. Open your terminal in the project directory.
 2. Launch the application:
