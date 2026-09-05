@@ -14,7 +14,7 @@ A powerful, asynchronous desktop application built with Python and PyQt6 that le
 Before running the application, ensure you have the following system dependencies installed:
 
 1. **Python 3.7+**
-2. **FFmpeg:** Crucial for merging separate high-quality video and audio streams. 
+2. **ffmpeg:** Crucial for merging separate high-quality video and audio streams. 
    - *Windows:* Install via `scoop install ffmpeg` or download from the official site and add it to your System `PATH`.
    - *macOS:* Install via Homebrew: `brew install ffmpeg`
    - *Linux:* Install via APT: `sudo apt install ffmpeg`
