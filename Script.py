@@ -9,7 +9,7 @@ from PyQt6.QtWidgets import (
 from PyQt6.QtCore import QThread, pyqtSignal, QObject, Qt
 
 
-# Helper to find bundled executable assets at runtime
+# Helper to find bundled executable asset at runtime
 def get_asset_path(binary_name):
     if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
         base_path = sys._MEIPASS
